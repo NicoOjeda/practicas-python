@@ -1,4 +1,6 @@
-# 7. Que imprima todos los números entre el 100 y el 199.
+# 16. Que imprima el siguiente patrón:
 
-for i in range(100,200):
-    print(i)
+for i in range(5,0,-1):
+    print("")
+    for e in range(i,0,-1):
+        print(e, end=" ")
