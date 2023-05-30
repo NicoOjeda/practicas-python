@@ -10,7 +10,7 @@ def numeros_primos():
                 contador += 1
                 
         if(contador==2):
-            print(i)
+            print(f'{i} es primo')
             contador2 += 1
         else:
             print(i)
