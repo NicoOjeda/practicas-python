@@ -6,7 +6,7 @@ tareas_pendientes = ["lavar la ropa","ordenar el escritorio","pasear al perro"]
 tareas_terminadas= []
 
 # a. Agregar nuevas tareas pendientes.
-tarea_p= input("Ingrese tarea pendiente: ").lower
+tarea_p= input("Ingrese tarea pendiente: ").lower()
 
 def pendientes(tarea_p):
     while tarea_p != "salir":
@@ -19,7 +19,7 @@ print("----------------")
 
 # b. Marcar las tareas pendientes como terminadas. Al hacer esto, la tarea deberá pasar
 # de la lista de pendientes a la de terminadas.
-print(tareas_pendientes)
+
 tarea_t= input("Marque una tarea pendiente como terminada: ").lower()
 
 def pendientes(tarea_t):
