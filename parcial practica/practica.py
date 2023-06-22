@@ -1,8 +1,10 @@
+nombre= input('ingrese nombre: ')
+apellido= input('ingrese apellido: ')
+empresa= input('ingrese de la empresa: ')
 
+def email_sugerido(nombre,apellido,empresa):
+    print('sugerencia de correo electronico: '+nombre[0]+apellido+'@'+empresa+'.com')
 
-prueba_deportiva={'Jorge':500,'Diana':600,'Rodrigo':800,'Julia':750,'Liliana':900}
-print(prueba_deportiva.keys())
+email_sugerido(nombre,apellido,empresa)
 
-# (['Jorge', 'Diana', 'Rodrigo', 'Julia', 'Liliana'])
-
-# >> {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+ejercicio 2

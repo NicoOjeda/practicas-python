@@ -8,22 +8,27 @@
 numeros_enteros  = [4,9,10,20,5]
 numeros_mayores=[]
 
-def lista_decimal2(numeros_enteros):
-    for i in numeros_enteros:
-        if i<=9:
-            numeros_mayores.append(i)
-    print(sorted(numeros_mayores))
-
-lista_decimal2(numeros_enteros)
-
-
-
-
-# def lista_decimal(numeros_enteros):
+# def lista_decimal2(numeros_enteros):
 #     for i in numeros_enteros:
-#         if (i>9):
-#             numeros_enteros.remove(i)
-#     num= sorted(numeros_enteros)
-#     print(num)
+#         if i<=9:
+#             numeros_mayores.append(i)
+#     print(sorted(numeros_mayores))
+
+# lista_decimal2(numeros_enteros)
+
+# def lista_decimal2(numeros_enteros):
+#     for i in numeros_enteros:
+#         if i<=9:
+#             numeros_mayores.append(i)
+            
+# lista_decimal2(numeros_enteros)
+
+
+def lista_decimal(numeros_enteros):
+    for i in numeros_enteros:
+        if (i>9):
+            numeros_enteros.pop(i)
+    num= sorted(numeros_enteros)
+    print(num)
         
-# lista_decimal(numeros_enteros)
+lista_decimal(numeros_enteros)
